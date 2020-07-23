@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- A linha logo abaixo foi adicionada para mudar a cor da letra do spinner, juntamente com o style abaixo -->
+        <item name="android:spinnerDropDownItemStyle">@style/mySpinnerItemStyle</item>
+        <!-- A linha logo acima foi adicionada para mudar a cor da letra do spinner, juntamente com o style abaixo -->
+    </style>
+
+    <!-- Parte do styles para mudar a cor da letra do spinner, ver no site: -->
+    <!-- https://stackoverflow.com/questions/9476665/how-to-change-spinner-text-size-and-text-color -->
+    <style name="mySpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/my_spinner_text_color</item>
+    </style>
+    <!-- style da cor da letra do spinner termina aqui -->
+
+</resources>

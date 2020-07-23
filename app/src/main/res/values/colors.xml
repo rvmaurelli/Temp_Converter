@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#160701</color>
+    <color name="colorPrimaryDark">#160701</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackground">#160701</color>
+    <color name="colorHint">#AAA9A9</color>
+    <color name="colorButton">#D94A51</color>
+
+    <!-- Essa cor de spinner eu adicionei para mudar a cor da letra, porém muda no dropdown também -->
+    <!-- Ver no styles.xml a outra parte da modificação da cor de letra -->
+    <color name="my_spinner_text_color">#D94A51</color>
+</resources>
